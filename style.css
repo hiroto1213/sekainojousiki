@@ -1,0 +1,72 @@
+body {
+    margin: 0px;
+    font-family: "Noto Serif JP",sans-serif;
+    line-height: 1.7;
+    color: #000;
+}
+
+.h1, .blank {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+video {
+    max-height: 100%;
+}
+
+.bad{
+    height: 100vh;
+    margin: 0px;
+    text-align: center;
+}
+
+.bad {
+    background-color: #000;
+}
+
+.verline, .line {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.verline {
+    height: 400px;
+    margin-bottom: 200px;
+}
+
+.flow .h2 {
+    margin: 0px;
+    height: 100px;
+}
+
+.agenda {
+    border: 2px solid #000;
+    margin: auto 100px;
+    display: flex;
+    justify-content: center;
+    padding: 50px auto;
+}
+
+.agenda img {
+    max-width: 500px;
+}
+
+.mijika .h2 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.blank {
+    height: 800px;
+    background-color: #888;
+}
