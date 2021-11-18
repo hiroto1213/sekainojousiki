@@ -1,0 +1,164 @@
+body {
+    margin: 0px;
+    font-family: "Noto Serif JP",sans-serif;
+    line-height: 1.7;
+    color: #000;
+}
+
+.h1{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #000 0%, #fff 100%);
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.content p {
+    font-size: 25px;
+}
+
+video {
+    max-height: 100%;
+}
+
+.bad{
+    height: 100vh;
+    margin: 0px;
+    text-align: center;
+}
+
+.bad {
+    background-color: #000;
+}
+
+.verline, .line, .verarrow {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.verline {
+    height: 400px;
+    margin-bottom: 200px;
+}
+
+
+.flow {
+    background: linear-gradient(to bottom, #fff 0%, #e9f5f5 100%);
+    margin-bottom: 0px;
+}
+
+.background {
+    background-color: #e9f5f5;
+}
+
+.agenda {
+    border: 2px solid #bbb;
+    margin: 0px 100px auto;
+    display: flex;
+    justify-content: center;
+    padding: 100px auto;
+}
+
+.agenda img {
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+.h2 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    background: radial-gradient(
+        circle 200px at 200px,
+        #5ec1c4 0%,
+        #e9f5f5 100%
+    );
+}
+
+.mijika .mijika-figure, .kajou-figure {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin-bottom: 50px;
+}
+
+.mijika-1, .mijika-2, .kajou-1 {
+    width: 600px;
+}
+/* 
+.mijika-1, .mijika-2, .kajou-1, .jinkou {
+    background: radial-gradient(
+        circle 500px at center,
+        #67f0f0 0%,
+        #e9f5f5 100%
+    )
+} */
+
+.mijika .verarrow {
+    height: 250px;
+    margin: 100px auto;
+}
+
+.verarrow p {
+    vertical-align: middle;
+}
+
+.mijika p, .kajou p {
+    text-align: center;
+}
+
+.jinkou {
+    margin: 100px;
+}
+
+.jinkou ul {
+    list-style: none;
+    text-align: center;
+}
+
+.jinkou li {
+    font-size: 40px;
+}
+
+.jinkou p {
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+
+
+.sdgs-explanation {
+    margin-left: 150px;
+}
+
+.tikyu img {
+    max-width: 400px;
+}
+
+.tikyu p {
+    text-align: center;
+}
+
+.poster {
+    display: flex;
+    justify-content: center;
+}
+
+.jibungoto {
+    display: flex;
+    justify-content: center;
+    margin: 200px auto;
+}
+
+.jibungoto p {
+    text-align: center;
+    vertical-align: bottom;
+    writing-mode: vertical-rl;
+}
