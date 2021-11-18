@@ -1,0 +1,124 @@
+body {
+    margin: 0px;
+    font-family: "Noto Serif JP",sans-serif;
+    line-height: 1.7;
+    color: #000;
+}
+
+.h1{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #000 0%, #fff 100%);
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.content p {
+    font-size: 25px;
+}
+
+video {
+    max-height: 100%;
+}
+
+.bad{
+    height: 100vh;
+    margin: 0px;
+    text-align: center;
+}
+
+.bad {
+    background-color: #000;
+}
+
+.verline, .line, .verarrow {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.verline {
+    height: 400px;
+    margin-bottom: 200px;
+}
+
+.mijika .h2 {
+    margin: 0px;
+    height: 100px;
+}
+
+.flow {
+    background: linear-gradient(to bottom, #fff 0%, #e9f5f5 100%);
+    margin-bottom: 0px;
+}
+
+.background {
+    background-color: #e9f5f5;
+}
+
+.agenda {
+    border: 2px solid #bbb;
+    margin: 0px 100px auto;
+    display: flex;
+    justify-content: center;
+    padding: 100px auto;
+}
+
+.agenda img {
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+.mijika .h2, .kajou .h2 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.mijika .mijika-figure {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin-bottom: 50px;
+}
+
+.mijika-1, .mijika-2 {
+    width: 600px;
+}
+
+.mijika .verarrow {
+    height: 250px;
+    margin: 100px auto;
+}
+
+.verarrow p {
+    vertical-align: middle;
+}
+
+.mijika p {
+    text-align: center;
+}
+
+.jinkou {
+    margin: 100px;
+}
+
+.jinkou ul {
+    list-style: none;
+    text-align: center;
+}
+
+.jinkou li {
+    font-size: 40px;
+}
+
+.jinkou p {
+    font-size: 40px;
+    text-decoration: underline;
+}
